@@ -1,0 +1,13 @@
+Menu
+1. Agregar tareas -> La opcion uno seria para agregar las tareas que dijite el usuario, pediria el titulo de la tarea, luego una descripcion de que se tiene q hacer en la tarea y establecer su prioridad, en el log de la prioridad haria otro menu con 3 opciones, (poco importante, importante y urgente) con sus numeros 1, 2 y 3 para cada una, cuando el usuario eliga la importancia se ponga directamente en tarea, que me mostrara titulo, descripcion, prioridad y estado, el estado automaticamente va a ser en proceso
+2. Eliminar tarea -> Esta opcion debe recorrer el array vacio que habia creado en tarea, dentro de tarea deben estar todas las tareas creadas, con un .find, haria un if con el array === false, es decir que este vacio mostrar en consola que no hay tareas agregadas aun, else mostrar el buscador de tareas por su titulo y luego pondria un filter con el titulo de la tarea
+3. Actualizar tarea -> A priori copiaria y pegaria la misma funcion o logica que use para buscar la tarea y pondria array[tarea limpiar escritorio] = prompt que dijite el usuario (este es un ejemplo), le pondria la opcion de marcar como completada con un console.log con 2 opciones ¿esta completada Y/N? y dependiendo de la respuesta del usuario se pone en el estado de la tarea que hice antes
+4. Salir del Menu -> Este solo termina el programa
+
+Do (el switch case del menu
+    case 1 
+    breake
+    y asi sucesivamente hasta el case 4
+)
+while (la opcion que dijite el usuario !== 4)
+asi se repite el programa hasta que el usuario decida salir
